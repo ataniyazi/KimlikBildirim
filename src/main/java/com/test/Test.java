@@ -15,6 +15,17 @@ public class Test {
 		ISrvShsYtkTmlProxy proxy = new ISrvShsYtkTmlProxy();
 		
 		MusteriKimlikNoGirisTalep talep = new MusteriKimlikNoGirisTalep();
+		
+		/*
+		
+		12565501960
+		12568501806
+		12571501732
+		13554087328
+		31961493488
+		*/
+		
+		
 		talep.setKIMLIKNO(12565501960l);
 		talep.setODANO("1");
 		
