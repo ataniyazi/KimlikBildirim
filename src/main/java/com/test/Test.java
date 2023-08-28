@@ -27,7 +27,6 @@ public class Test {
 		
 		try {
 			MusteriKimlikNoGirisSonuc sonuc =  proxy.musteriKimlikNoGiris(10141299300l, 203537l, "at1514ta", talep);
-			
 			System.out.println(sonuc);
 			
 		} catch (RemoteException e) {
